@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonProjetPogo", "MonProjetPogo\MonProjetPogo.csproj", "{7BFF34EE-0231-4D90-9E1B-956A3B49C920}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BFF34EE-0231-4D90-9E1B-956A3B49C920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFF34EE-0231-4D90-9E1B-956A3B49C920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFF34EE-0231-4D90-9E1B-956A3B49C920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFF34EE-0231-4D90-9E1B-956A3B49C920}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6A21456-92F1-44C8-AA18-B17E421D5891}
+	EndGlobalSection
+EndGlobal
