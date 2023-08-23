@@ -6,9 +6,12 @@
         xmlns:local="clr-namespace:MonProjetPogo"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" FontSize="50">
-    <StackPanel>
-        <TextBlock FontSize="40">Allo</TextBlock>
-        <TextBlock FontSize="40">Bye</TextBlock>
-        <Button FontSize="">Clic here</Button>
+    <StackPanel x:Name="StackPanelMain">
+        <WrapPanel>
+            <TextBlock Width="300">Name</TextBlock>
+            <TextBox Width="300" Background="Gray" x:Name="TextBoxName">Enter text here</TextBox>
+        </WrapPanel>
+        <TextBlock x:Name="TextBlockGame">Text</TextBlock>
+        <Button x:Name="ButtonClickMe">Click here</Button>
     </StackPanel>
 </Window>
