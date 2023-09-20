@@ -1,0 +1,40 @@
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\bin\Debug\net7.0-windows\A23_Linq.exe
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\bin\Debug\net7.0-windows\A23_Linq.deps.json
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\bin\Debug\net7.0-windows\A23_Linq.runtimeconfig.json
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\bin\Debug\net7.0-windows\A23_Linq.dll
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\bin\Debug\net7.0-windows\A23_Linq.pdb
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\App.g.cs
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\A23_Linq_MarkupCompile.cache
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\A23_Linq_MarkupCompile.lref
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\MainWindow.baml
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.g.resources
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.AssemblyInfoInputs.cache
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.AssemblyInfo.cs
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.csproj.CoreCompileInputs.cache
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.dll
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\refint\A23_Linq.dll
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.pdb
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.genruntimeconfig.cache
+D:\OneDrive - CEGEP de Saint-JEROME\Bureau\3C4\3C4_Tests\A23_Linq\obj\Debug\net7.0-windows\ref\A23_Linq.dll
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\bin\Debug\net7.0-windows\A23_Linq.exe
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\bin\Debug\net7.0-windows\A23_Linq.deps.json
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\bin\Debug\net7.0-windows\A23_Linq.runtimeconfig.json
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\bin\Debug\net7.0-windows\A23_Linq.dll
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\bin\Debug\net7.0-windows\A23_Linq.pdb
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\MainWindow.g.cs
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\App.g.cs
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\A23_Linq_MarkupCompile.cache
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\A23_Linq_MarkupCompile.lref
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\MainWindow.baml
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.g.resources
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.GeneratedMSBuildEditorConfig.editorconfig
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.AssemblyInfoInputs.cache
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.AssemblyInfo.cs
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.csproj.CoreCompileInputs.cache
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.dll
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\refint\A23_Linq.dll
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.pdb
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\A23_Linq.genruntimeconfig.cache
+D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\A23_Linq\obj\Debug\net7.0-windows\ref\A23_Linq.dll
