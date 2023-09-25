@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cours06", "Cours06\Cours06.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A23_Linq", "A23_Linq\A23_Linq.csproj", "{8B8ABC8B-45C3-4600-B582-79B85DB0458D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A23_Linq_Prof", "A23_Linq_Prof\A23_Linq_Prof.csproj", "{1AC45C93-CCBA-406D-BBF5-B34D43792D55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8B8ABC8B-45C3-4600-B582-79B85DB0458D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B8ABC8B-45C3-4600-B582-79B85DB0458D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B8ABC8B-45C3-4600-B582-79B85DB0458D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC45C93-CCBA-406D-BBF5-B34D43792D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC45C93-CCBA-406D-BBF5-B34D43792D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC45C93-CCBA-406D-BBF5-B34D43792D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC45C93-CCBA-406D-BBF5-B34D43792D55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
