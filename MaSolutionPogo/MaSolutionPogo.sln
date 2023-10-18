@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A23_Linq", "A23_Linq\A23_Li
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "A23_Linq_Prof", "A23_Linq_Prof\A23_Linq_Prof.csproj", "{1AC45C93-CCBA-406D-BBF5-B34D43792D55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes01", "Classes01\Classes01.csproj", "{259AFF18-C202-482F-AB3F-18FE64CD1ABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes01", "Classes01\Classes01.csproj", "{259AFF18-C202-482F-AB3F-18FE64CD1ABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes2", "Classes2\Classes2.csproj", "{955D9BBF-5397-42B8-9B8F-D2CC4982D413}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{259AFF18-C202-482F-AB3F-18FE64CD1ABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{259AFF18-C202-482F-AB3F-18FE64CD1ABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{259AFF18-C202-482F-AB3F-18FE64CD1ABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{955D9BBF-5397-42B8-9B8F-D2CC4982D413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{955D9BBF-5397-42B8-9B8F-D2CC4982D413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{955D9BBF-5397-42B8-9B8F-D2CC4982D413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{955D9BBF-5397-42B8-9B8F-D2CC4982D413}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
