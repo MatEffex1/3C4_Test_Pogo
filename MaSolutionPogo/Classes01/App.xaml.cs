@@ -16,17 +16,17 @@ namespace Classes01
         public int Y { get; set; }
     }
 
-    public interface ISavable
+    public class Save
     {
 
     }
 
-    public interface ILoadable
+    public class Load
     {
 
     }
 
-    public interface IErasable
+    public class Erase
     {
 
     }
@@ -70,10 +70,22 @@ namespace Classes01
 
     }
 
-    public class Texte
+    public class Pipe
+    {
+        private Color ActiveColor { get; set; }
+
+        void newColor()
+        {
+
+        }
+    }
+
+    public class Texte : IPosition
     {
         private string? TextField { get; set; }
         private int? FontSize { get; set; }
         private string? FontFamily { get; set; }
+        public int X { get; set; }
+        public int Y { get; set; }
     }
 }
