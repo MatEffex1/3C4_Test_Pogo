@@ -54,24 +54,24 @@ namespace Generics
                 // listString.Swap("a", 20);
             }
 
-            //// Test 02 - RemoveDuplicates doit converser uniquement la première ocurrence de la valeur
-            //{
-            //    var listInt = new List<int>() { 10, 20, 10, 10, 30, 20, 10, 10 };
-            //    listInt.RemoveDuplicates();
+            // Test 02 - RemoveDuplicates doit converser uniquement la première ocurrence de la valeur
+            {
+                var listInt = new List<int>() { 10, 20, 10, 10, 30, 20, 10, 10 };
+                listInt.RemoveDuplicates();
 
-            //    Debug.Assert(listInt.Count == 3);
-            //    Debug.Assert(listInt[0] == 10);
-            //    Debug.Assert(listInt[1] == 20);
-            //    Debug.Assert(listInt[2] == 30);
+                Debug.Assert(listInt.Count == 3);
+                Debug.Assert(listInt[0] == 10);
+                Debug.Assert(listInt[1] == 20);
+                Debug.Assert(listInt[2] == 30);
 
-            //    var listString = new List<string>() { "b", "b", "a", "c", "c", "b", "a" };
-            //    listString.RemoveDuplicates();
+                var listString = new List<string>() { "b", "b", "a", "c", "c", "b", "a" };
+                listString.RemoveDuplicates();
 
-            //    Debug.Assert(listString.Count == 3);
-            //    Debug.Assert(listString[0] == "b");
-            //    Debug.Assert(listString[1] == "a");
-            //    Debug.Assert(listString[2] == "c");
-            //}
+                Debug.Assert(listString.Count == 3);
+                Debug.Assert(listString[0] == "b");
+                Debug.Assert(listString[1] == "a");
+                Debug.Assert(listString[2] == "c");
+            }
 
             //// Créer une class static DictionaryExtensions avec fonction suivantes
             //// Test 03 - Merge doit ajouter au premier Dictionary le contenu du deuxième, si la key n'est pas déjà utilisée

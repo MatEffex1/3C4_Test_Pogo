@@ -12,5 +12,21 @@ namespace Generics
             list[idx1] = nb2;
             list[idx2] = nb1;
         }
+
+        public static void RemoveDuplicates<T>(this List<T> list)
+        {
+            var listTemp = list;
+
+            for (int i = 0; i < listTemp.Count; ++i)
+            {
+                for (int j = i + 1; j < listTemp.Count; ++j)
+                {
+                    if (listTemp[j].Equals(listTemp[i]))
+                    {
+                        list.RemoveAt(j);
+                    }
+                }
+            }
+        }
     }
 }
