@@ -73,111 +73,111 @@ namespace Generics
                 Debug.Assert(listString[2] == "c");
             }
 
-            //// Créer une class static DictionaryExtensions avec fonction suivantes
-            //// Test 03 - Merge doit ajouter au premier Dictionary le contenu du deuxième, si la key n'est pas déjà utilisée
-            //{
-            //    var dictionaryInt1 = new Dictionary<int, int>() { { 10, 1000 }, { 20, 2000 }, { 30, 3000 } };
-            //    var dictionaryInt2 = new Dictionary<int, int>() { { 40, 4567 }, { 10, 1234 }, { 50, 5678 } };
-            //    dictionaryInt1.Merge(dictionaryInt2);
+            // Créer une class static DictionaryExtensions avec fonction suivantes
+            // Test 03 - Merge doit ajouter au premier Dictionary le contenu du deuxième, si la key n'est pas déjà utilisée
+            {
+                var dictionaryInt1 = new Dictionary<int, int>() { { 10, 1000 }, { 20, 2000 }, { 30, 3000 } };
+                var dictionaryInt2 = new Dictionary<int, int>() { { 40, 4567 }, { 10, 1234 }, { 50, 5678 } };
+                dictionaryInt1.Merge(dictionaryInt2);
 
-            //    Debug.Assert(dictionaryInt1.Count == 5);
-            //    Debug.Assert(dictionaryInt1[10] == 1000);
-            //    Debug.Assert(dictionaryInt1[20] == 2000);
-            //    Debug.Assert(dictionaryInt1[30] == 3000);
-            //    Debug.Assert(dictionaryInt1[40] == 4567);
-            //    Debug.Assert(dictionaryInt1[50] == 5678);
-            //    Debug.Assert(dictionaryInt2.Count == 3);
-            //}
+                Debug.Assert(dictionaryInt1.Count == 5);
+                Debug.Assert(dictionaryInt1[10] == 1000);
+                Debug.Assert(dictionaryInt1[20] == 2000);
+                Debug.Assert(dictionaryInt1[30] == 3000);
+                Debug.Assert(dictionaryInt1[40] == 4567);
+                Debug.Assert(dictionaryInt1[50] == 5678);
+                Debug.Assert(dictionaryInt2.Count == 3);
+            }
 
-            //// Test 04 - IsEqual doit vérifier que les dictionnaires contiennent les mêmes clés avec les mêmes valeurs
-            //{
-            //    var dictionaryInt1 = new Dictionary<int, int>() { { 10, 1000 }, { 20, 2000 }, { 30, 3000 } };
-            //    var dictionaryInt2 = new Dictionary<int, int>() { { 10, 1000 }, { 20, 2000 }, { 30, 3000 } };
-            //    var dictionaryInt3 = new Dictionary<int, int>() { { 10, 1000 }, { 20, 2000 } };
-            //    var dictionaryInt4 = new Dictionary<int, int>() { { 10, 1000 }, { 20, 2000 }, { 30, 3000 }, { 40, 4000 } };
-            //    var dictionaryInt5 = new Dictionary<int, int>() { { 10, 2000 }, { 20, 1000 }, { 30, 3000 } };
-            //    var dictionaryInt6 = new Dictionary<int, int>() { { 10, 1000 }, { 20, 2000 }, { 30, 9999 } };
+            // Test 04 - IsEqual doit vérifier que les dictionnaires contiennent les mêmes clés avec les mêmes valeurs
+            {
+                var dictionaryInt1 = new Dictionary<int, int>() { { 10, 1000 }, { 20, 2000 }, { 30, 3000 } };
+                var dictionaryInt2 = new Dictionary<int, int>() { { 10, 1000 }, { 20, 2000 }, { 30, 3000 } };
+                var dictionaryInt3 = new Dictionary<int, int>() { { 10, 1000 }, { 20, 2000 } };
+                var dictionaryInt4 = new Dictionary<int, int>() { { 10, 1000 }, { 20, 2000 }, { 30, 3000 }, { 40, 4000 } };
+                var dictionaryInt5 = new Dictionary<int, int>() { { 10, 2000 }, { 20, 1000 }, { 30, 3000 } };
+                var dictionaryInt6 = new Dictionary<int, int>() { { 10, 1000 }, { 20, 2000 }, { 30, 9999 } };
 
-            //    Debug.Assert(dictionaryInt1.Count == 3);
-            //    Debug.Assert(dictionaryInt2.Count == 3);
-            //    Debug.Assert(dictionaryInt3.Count == 2);
-            //    Debug.Assert(dictionaryInt4.Count == 4);
-            //    Debug.Assert(dictionaryInt5.Count == 3);
-            //    Debug.Assert(dictionaryInt5.Count == 3);
+                Debug.Assert(dictionaryInt1.Count == 3);
+                Debug.Assert(dictionaryInt2.Count == 3);
+                Debug.Assert(dictionaryInt3.Count == 2);
+                Debug.Assert(dictionaryInt4.Count == 4);
+                Debug.Assert(dictionaryInt5.Count == 3);
+                Debug.Assert(dictionaryInt6.Count == 3);
 
-            //    Debug.Assert(dictionaryInt1.IsEqual(dictionaryInt2));
-            //    Debug.Assert(!dictionaryInt1.IsEqual(dictionaryInt3));
-            //    Debug.Assert(!dictionaryInt1.IsEqual(dictionaryInt4));
-            //    Debug.Assert(!dictionaryInt1.IsEqual(dictionaryInt5));
-            //    Debug.Assert(!dictionaryInt1.IsEqual(dictionaryInt5));
-            //}
+                Debug.Assert(dictionaryInt1.IsEqual(dictionaryInt2));
+                Debug.Assert(!dictionaryInt1.IsEqual(dictionaryInt3));
+                Debug.Assert(!dictionaryInt1.IsEqual(dictionaryInt4));
+                Debug.Assert(!dictionaryInt1.IsEqual(dictionaryInt5));
+                Debug.Assert(!dictionaryInt1.IsEqual(dictionaryInt6));
+            }
         }
 
         private void Exercice02_DatabaseValue()
         {
-            //// Test 01 - Créer class avec generics
-            //{
-            //    var databaseValueInt = new DatabaseValue<int>(100);
-            //    var databaseValueString = new DatabaseValue<string>("hello");
-            //}
+            // Test 01 - Créer class avec generics
+            {
+                var databaseValueInt = new DatabaseValue<int>(100);
+                var databaseValueString = new DatabaseValue<string>("hello");
+            }
 
-            //// Test 02 - Revert() doit revenir à l'ancienne valeur
-            //{
-            //    var databaseValueInt = new DatabaseValue<int>(100);
+            // Test 02 - Revert() doit revenir à l'ancienne valeur
+            {
+                var databaseValueInt = new DatabaseValue<int>(100);
 
-            //    databaseValueInt.Current = 200;
-            //    databaseValueInt.Revert();
+                databaseValueInt.Current = 200;
+                databaseValueInt.Revert();
 
-            //    // Doit revenir à 100
-            //    Debug.Assert(databaseValueInt.Current == 100);
+                // Doit revenir à 100
+                Debug.Assert(databaseValueInt.Current == 100);
 
-            //    var databaseValueString = new DatabaseValue<string>("hello");
-            //    databaseValueString.Current = "bye";
-            //    databaseValueString.Revert();
+                var databaseValueString = new DatabaseValue<string>("hello");
+                databaseValueString.Current = "bye";
+                databaseValueString.Revert();
 
-            //    // Doit revenir à "hello"
-            //    Debug.Assert(databaseValueString.Current == "hello");
-            //}
+                // Doit revenir à "hello"
+                Debug.Assert(databaseValueString.Current == "hello");
+            }
 
-            //// Test 03 - Save() doit changer la valeur à laquelle revenir
-            //{
-            //    var databaseValueInt = new DatabaseValue<int>(999);
+            // Test 03 - Save() doit changer la valeur à laquelle revenir
+            {
+                var databaseValueInt = new DatabaseValue<int>(999);
 
-            //    databaseValueInt.Current = 7777;
-            //    databaseValueInt.Save();
+                databaseValueInt.Current = 7777;
+                databaseValueInt.Save();
 
-            //    databaseValueInt.Current = 8888;
-            //    databaseValueInt.Revert();
+                databaseValueInt.Current = 8888;
+                databaseValueInt.Revert();
 
-            //    // Doit revenir à 7777
-            //    Debug.Assert(databaseValueInt.Current == 7777);
+                // Doit revenir à 7777
+                Debug.Assert(databaseValueInt.Current == 7777);
 
-            //    var databaseValueString = new DatabaseValue<string>("pogo");
+                var databaseValueString = new DatabaseValue<string>("pogo");
 
-            //    databaseValueString.Current = "poutine";
-            //    databaseValueString.Save();
+                databaseValueString.Current = "poutine";
+                databaseValueString.Save();
 
-            //    databaseValueString.Current = "patate";
-            //    databaseValueString.Revert();
+                databaseValueString.Current = "patate";
+                databaseValueString.Revert();
 
-            //    // Doit revenir à "poutine"
-            //    Debug.Assert(databaseValueString.Current == "poutine");
-            //}
+                // Doit revenir à "poutine"
+                Debug.Assert(databaseValueString.Current == "poutine");
+            }
 
-            //// Test 04 - Ajouter un opérateur de conversion implicite
-            //{
-            //    var databaseValueInt = new DatabaseValue<int>(100);
-            //    var databaseValueString = new DatabaseValue<string>("allo");
+            // Test 04 - Ajouter un opérateur de conversion implicite
+            {
+                var databaseValueInt = new DatabaseValue<int>(100);
+                var databaseValueString = new DatabaseValue<string>("allo");
 
-            //    Debug.Assert(databaseValueInt == databaseValueInt.Current);
-            //    Debug.Assert(databaseValueString == databaseValueString.Current);
+                Debug.Assert(databaseValueInt == databaseValueInt.Current);
+                Debug.Assert(databaseValueString == databaseValueString.Current);
 
-            //    databaseValueInt.Current = 200;
-            //    Debug.Assert(databaseValueInt != databaseValueInt.Database);
+                databaseValueInt.Current = 200;
+                Debug.Assert(databaseValueInt != databaseValueInt.Database);
 
-            //    databaseValueString.Current = "bye";
-            //    Debug.Assert(databaseValueString != databaseValueString.Database);
-            //}
+                databaseValueString.Current = "bye";
+                Debug.Assert(databaseValueString != databaseValueString.Database);
+            }
         }
 
         private void Exercice03_Calculator()

@@ -18,3 +18,23 @@ D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\
 D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\Generics.pdb
 D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\Generics.genruntimeconfig.cache
 D:\0848971\interfacesgraphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\ref\Generics.dll
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\bin\Debug\net7.0-windows\Generics.exe
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\bin\Debug\net7.0-windows\Generics.deps.json
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\bin\Debug\net7.0-windows\Generics.runtimeconfig.json
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\bin\Debug\net7.0-windows\Generics.dll
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\bin\Debug\net7.0-windows\Generics.pdb
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\MainWindow.g.cs
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\App.g.cs
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\Generics_MarkupCompile.cache
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\Generics_MarkupCompile.lref
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\MainWindow.baml
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\Generics.g.resources
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\Generics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\Generics.AssemblyInfoInputs.cache
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\Generics.AssemblyInfo.cs
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\Generics.csproj.CoreCompileInputs.cache
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\Generics.dll
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\refint\Generics.dll
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\Generics.pdb
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\Generics.genruntimeconfig.cache
+C:\Users\mathi\source\repos\Interfaces graphiques\3C4_Test_Pogo\MaSolutionPogo\Generics\obj\Debug\net7.0-windows\ref\Generics.dll

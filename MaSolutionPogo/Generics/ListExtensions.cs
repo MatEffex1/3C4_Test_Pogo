@@ -15,13 +15,14 @@ namespace Generics
 
         public static void RemoveDuplicates<T>(this List<T> list)
         {
-            var listTemp = list;
-
-            for (int i = 0; i < listTemp.Count; ++i)
+            // Pour chaque élément 'i' de la liste,
+            for (int i = 0; i < list.Count; ++i)
             {
-                for (int j = i + 1; j < listTemp.Count; ++j)
+                // Pour chaque élément 'j' de la liste en partant du dernier jusqu'à 1 élément après i,
+                for (int j = list.Count - 1; j >= i + 1; --j)
                 {
-                    if (listTemp[j].Equals(listTemp[i]))
+                    // Si les éléments sont égaux, l'enlève de la liste
+                    if (list[j].Equals(list[i]))
                     {
                         list.RemoveAt(j);
                     }
