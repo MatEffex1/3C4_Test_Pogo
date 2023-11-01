@@ -10,24 +10,24 @@ namespace Generics
         public DatabaseValue(T value)
         {
             // Crée une nouvelle liste et y assigne la value pour la propriété Value
-            Database = new List<T> { value };
+            Values = new List<T> { value };
         }
 
         public void Revert()
         {
             // S'il y a plus d'une valeur dans la liste de Values,
-            if (Database.Count > 1)
+            if (Values.Count > 1)
             {
-                if (Previous != null)
+                if (Database != null)
                 {
-                    Current = Previous;
+                    Current = Database;
                 }
             }
         }
 
         public void Save()
         {
-            Previous = Current;
+            Database = Current;
         }
 
 
@@ -39,24 +39,24 @@ namespace Generics
 
         public static implicit operator List<T>(DatabaseValue<T> databaseValue)
         {
-            return databaseValue.Database;
+            return databaseValue.Values;
         }
 
 
 
-        public List<T> Database { get; set; }
+        public List<T> Values { get; set; }
         public T Current
         {
             // Retourne le dernier élément de la liste Values
-            get { return Database.Last(); }
+            get { return Values.Last(); }
             // 
             set
             {
                 Save();
-                Database.Add(value);
+                Values.Add(value);
             }
         }
 
-        public T? Previous;
+        public T? Database;
     }
 }

@@ -182,43 +182,43 @@ namespace Generics
 
         private void Exercice03_Calculator()
         {
-            //// Test 01 - Créer classe avec generics seulement pour les nombres
-            //{
-            //    var calculatorInt = new Calculator<int>();
-            //    var calculatorByte = new Calculator<byte>();
+            // Test 01 - Créer classe avec generics seulement pour les nombres
+            {
+                var calculatorInt = new Calculator<int>();
+                var calculatorByte = new Calculator<byte>();
 
-            //    var calculatorInt2 = new Calculator<int>(100);
-            //    var calculatorByte2 = new Calculator<byte>(16);
+                var calculatorInt2 = new Calculator<int>(100);
+                var calculatorByte2 = new Calculator<byte>(16);
 
-            //    // Ne doit pas être valide
-            //    // var calculatorBool = new Calculator<bool>();
+                // Ne doit pas être valide
+                //var calculatorBool = new Calculator<bool>();
 
-            //    // Ne doit pas être valide
-            //    // var calculatorApp = new Calculator<App>();
-            //}
+                // Ne doit pas être valide
+                //var calculatorApp = new Calculator<App>();
+            }
 
-            //// Test 02 - Ajouter les opérations de base
-            //// Truc : Ajouter des contraintes I...Operators sur le type generics
-            //// ex. IAdditionOperators force l'existance des opérateurs +
-            ////     ISubtractOperators force l'existance des opérateurs -, etc.
-            //{
-            //    var calculatorInt = new Calculator<int>(100);
-            //    Debug.Assert(calculatorInt.Result == 100);
+            // Test 02 - Ajouter les opérations de base
+            // Truc : Ajouter des contraintes I...Operators sur le type generics
+            // ex. IAdditionOperators force l'existance des opérateurs +
+            //     ISubtractOperators force l'existance des opérateurs -, etc.
+            {
+                var calculatorInt = new Calculator<int>(100);
+                Debug.Assert(calculatorInt.Result == 100);
 
-            //    calculatorInt.Add(10);
-            //    Debug.Assert(calculatorInt.Result == (100 + 10));
+                calculatorInt.Add(10);
+                Debug.Assert(calculatorInt.Result == (100 + 10));
 
-            //    calculatorInt.Subtract(20);
-            //    Debug.Assert(calculatorInt.Result == (100 + 10 - 20));
+                calculatorInt.Subtract(20);
+                Debug.Assert(calculatorInt.Result == (100 + 10 - 20));
 
-            //    calculatorInt.Multiply(4);
-            //    Debug.Assert(calculatorInt.Result == (100 + 10 - 20) * 4);
+                calculatorInt.Multiply(4);
+                Debug.Assert(calculatorInt.Result == (100 + 10 - 20) * 4);
 
-            //    calculatorInt.Divide(2);
-            //    Debug.Assert(calculatorInt.Result == (100 + 10 - 20) * 4 / 2);
-            //}
+                calculatorInt.Divide(2);
+                Debug.Assert(calculatorInt.Result == (100 + 10 - 20) * 4 / 2);
+            }
 
-            //// Test 03 - Ajouter les surchages d'opérateurs +, -, *, /
+            // Test 03 - Ajouter les surchages d'opérateurs +, -, *, /
             //{
             //    var calculatorInt = new Calculator<int>(100);
             //    Debug.Assert(calculatorInt.Result == 100);
@@ -236,8 +236,8 @@ namespace Generics
             //    Debug.Assert(calculatorInt.Result == (100 + 10 - 20) * 4 / 2);
             //}
 
-            //// Test 04 - Permettre les opérations en chaîne
-            //// Truc : Retourner l'objet lui-même comme valeur de retour des fonctions
+            // Test 04 - Permettre les opérations en chaîne
+            // Truc : Retourner l'objet lui-même comme valeur de retour des fonctions
             //{
             //    var calculatorInt = new Calculator<int>(100);
             //    Debug.Assert(calculatorInt.Result == 100);
